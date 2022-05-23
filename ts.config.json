@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declaration": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "module": "commonjs",
+        "outDir": "build",
+        "resolveModule": true,
+        "strict": true,
+        "target": "es2019"
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "./build"
+    ]
+}
